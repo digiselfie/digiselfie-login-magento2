@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js" src_type="url"></script>
+        <script type="text/javascript">jQuery.noConflict();</script>
+    </head>
+    <body>
+        <referenceContainer name="form.additional.info">
+            <block template="Digiselfie_Login::digiselfie/login/login.phtml" class="Digiselfie\Login\Block\Login" name="digiselfie_login_login">
+                <block template="Digiselfie_Login::digiselfie/login/digiselfie/button.phtml" class="Digiselfie\Login\Block\Digiselfie\Button" name="digiselfie_login_button"/>
+            </block>
+            <block class="Digiselfie\Login\Block\Login" name="digiselfie_login_login" template="Digiselfie_Login::digiselfie/login/login.phtml" >
+                <block class="Digiselfie\Login\Block\Digiselfie\Button" name="digiselfie_login_button" template="Digiselfie_Login::digiselfie/login/digiselfie/button.phtml" />
+            </block>
+        </referenceContainer>
+    </body>
+</page>

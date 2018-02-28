@@ -1,0 +1,37 @@
+div.digiselfielogin-register,
+div.digiselfielogin-checkout,
+div.digiselfielogin-login {
+    margin-top: 14px;
+}
+
+div.digiselfielogin-register {
+  float: left;
+}
+
+div.digiselfielogin-login .content {
+    min-height: 100px;
+}
+
+div.digiselfielogin-register .fieldset {
+    margin: 0px;
+}
+
+div.digiselfielogin-account .col3-set .col-1 {
+    width: 29%
+}
+
+div.digiselfielogin-account .col3-set .col-2 {
+    width: 49%
+}
+
+div.digiselfielogin-account .col3-set .col-3 {
+    width: 19%
+}
+
+div.digiselfielogin-account .col2-set .col-1 {
+    width: 79%
+}
+
+div.digiselfielogin-account .col2-set .col-2 {
+    width: 19%
+}

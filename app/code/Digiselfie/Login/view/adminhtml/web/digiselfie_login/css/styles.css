@@ -1,0 +1,12 @@
+div.digiselfielogin-login-admin {
+    margin-top: 65px;
+}
+
+div.digiselfielogin-login-admin button {
+    background: none;
+}
+
+div.digiselfielogin-login-admin button:active,
+div.digiselfielogin-login-admin button:hover {
+    background: none;
+}

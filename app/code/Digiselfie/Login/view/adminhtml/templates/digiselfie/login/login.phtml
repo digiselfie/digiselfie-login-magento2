@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @category    Digiselfie
+ * @package     Digiselfie_Login
+ * @author      Digiselfie Inc.
+ */
+
+?>
+<script type="text/javascript" src="<?php echo $this->getJsUrl('lib/jquery/jquery-1.10.2.min.js') ?>"></script>
+<script type="text/javascript" src="<?php echo $this->getJsUrl('lib/jquery/noconflict.js') ?>"></script>
+<link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('digiselfie_login/css/styles.css') ?>" media="all" />
+
+<div class="digiselfielogin-login-admin">
+    <div class="account-login">
+        <div class="digiselfielogin-login-lower">
+            <?php echo $block->getChildHtml('digiselfie_login_button'); ?>
+        </div>
+    </div>
+</div>

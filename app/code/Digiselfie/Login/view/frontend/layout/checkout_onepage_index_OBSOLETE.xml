@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <action method="addItem">
+            <argument name="type" xsi:type="string">skin_css</argument>
+            <argument name="name" xsi:type="string">digiselfie_login/css/styles.css</argument>
+        </action>
+    </head>
+    <body>
+        <referenceBlock name="checkout.onepage.login">
+            <action method="setTemplate">
+                <argument name="template" xsi:type="string">Digiselfie_Login::digiselfie/login/checkout/onepage/login.phtml</argument>
+            </action>
+            <block class="Digiselfie\Login\Block\Checkout" name="digiselfie_login_checkout">
+                <block template="Digiselfie_Login::digiselfie/login/digiselfie/button.phtml" class="Digiselfie\Login\Block\Digiselfie\Button" name="digiselfie_checkout_button"/>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @category    Digiselfie
+ * @package     Digiselfie_Login
+ * @author      Digiselfie Inc.
+ */
+
+?>
+<div class="digiselfielogin-login">
+    <div class="account-login">
+        <div class="<?php echo $block->getColSet(); ?> digiselfielogin-login-lower">
+            <?php if($block->digiselfieEnabled()): ?>
+            <div class="<?php echo $block->getButtCol(); ?> digiselfielogin-login-lower">
+                <?php echo $block->getChildHtml("digiselfie_login_button"); ?>
+            </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
