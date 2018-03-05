@@ -160,7 +160,7 @@ class Digiselfie extends \Magento\Framework\App\Helper\AbstractHelper
         }
         $customer->save();
 
-        //  $customer->sendNewAccountEmail('confirmed', '', $this->storeManager->getStore()->getId());
+        $customer->sendNewAccountEmail('registered', '', $this->storeManager->getStore()->getId());
         $this->customerSession->setCustomerAsLoggedIn($customer);
     }
 
